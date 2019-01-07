@@ -5,6 +5,6 @@
    zprint {:mvn/version "0.4.13"}
  }
  :aliases {
-   :build {:main-opts ["-e" "(require,'[hiccup.page,:refer,[html5]]),(->>,\"page.clj\",slurp,read-string,eval,html5,(spit,\"gh-pages/page.html\"))"]}
+   :build {:main-opts ["-e" "(require,'[hiccup.page,:refer,[html5]]),(->>,\"page.clj\",slurp,read-string,eval,html5,(spit,\"docs/index.html\"))"]}
  }
 }
